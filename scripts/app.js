@@ -97,32 +97,6 @@ const FALLBACK_PROJECTS = [
   }
 ];
 
-function applyTheme(theme) {
-  document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('theme', theme);
-  document.querySelectorAll('[data-theme-set]').forEach((btn) => {
-    btn.classList.toggle('is-active', btn.getAttribute('data-theme-set') === theme);
-  });
-}
-
-function initTheme() {
-  const stored = localStorage.getItem('theme');
-  const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-  const initial = stored || (prefersLight ? 'light' : 'dark');
-  applyTheme(initial);
-
-  document.querySelectorAll('[data-theme-toggle]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
-      applyTheme(current === 'light' ? 'dark' : 'light');
-    });
-  });
-
-  document.querySelectorAll('[data-theme-set]').forEach((btn) => {
-    btn.addEventListener('click', () => applyTheme(btn.getAttribute('data-theme-set')));
-  });
-}
-
 function initMobileNav() {
   const menuBtn = document.querySelector('[data-menu-toggle]');
   const mobileNav = document.querySelector('[data-mobile-nav]');
@@ -367,7 +341,6 @@ function initCodeCopy() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-  initTheme();
   initMobileNav();
   initFooterYear();
   initFeaturedGrid();
