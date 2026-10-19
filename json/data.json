@@ -87,7 +87,7 @@
       "details": "",
       "tags": ["Minecraft", "Resource Pack", "Vanilla"],
       "stats": { "downloads": "403", "likes": "3" },
-      "featured": true,
+      "featured": false,
       "link": "/projects/cosmetics",
       "github": "https://modrinth.com/resourcepack/cosmetics+",
       "download": "https://modrinth.com/resourcepack/cosmetics+",
