@@ -1,100 +1,104 @@
 const FALLBACK_PROJECTS = [
   {
-    "id": "hollow-signal",
-    "title": "Hollow Signal",
-    "category": "games",
-    "categoryLabel": "Game",
-    "year": "2026",
-    "index": "01",
-    "description": "A top-down pursuit game built in Godot 4, with agent-driven police AI, layered parallax city blocks, and a scoring system tuned around risk versus getaway speed.",
-    "tags": ["Godot 4", "GDScript", "NavigationAgent2D"],
-    "stats": { "downloads": "2.1k", "likes": "180" },
-    "featured": true,
-    "link": "project.html?id=hollow-signal",
-    "banner": "assets/projects/hollow-signal-banner.jpg",
-    "logo": "assets/projects/hollow-signal-logo.png",
-    "show": true
-  },
-  {
-    "id": "shulker-ui",
-    "title": "Shulker UI",
-    "category": "packs",
-    "categoryLabel": "Resource Pack",
-    "year": "2025",
-    "index": "02",
-    "description": "A minimal inventory and menu overhaul that keeps every default control in its familiar place while refining spacing, contrast, and iconography.",
-    "tags": ["Minecraft", "Resource Pack", "UI"],
-    "stats": { "downloads": "48.6k", "likes": "1.2k" },
-    "featured": true,
-    "link": "project.html?id=shulker-ui",
-    "banner": "assets/projects/shulker-ui-banner.jpg",
-    "logo": "assets/projects/shulker-ui-logo.png",
-    "show": true
-  },
-  {
-    "id": "flaming-swords",
-    "title": "Flaming Swords",
-    "category": "packs",
-    "categoryLabel": "Resource Pack",
-    "year": "2024",
-    "index": "03",
-    "description": "Animated weapon textures with a consistent burn-in silhouette across every vanilla sword, built for readability at survival distances.",
-    "tags": ["Minecraft", "Blockbench", "Animation"],
-    "stats": { "downloads": "112k", "likes": "3.4k" },
-    "featured": true,
-    "link": "project.html?id=flaming-swords",
-    "banner": "assets/projects/flaming-swords-banner.jpg",
-    "logo": "assets/projects/flaming-swords-logo.png",
-    "show": true
-  },
-  {
-    "id": "pack-uploader",
-    "title": "Pack Uploader",
-    "category": "tools",
-    "categoryLabel": "Tool",
-    "year": "2025",
-    "index": "04",
-    "description": "A single-file HTML front end wrapped around a Node CLI, publishing packs to Modrinth, CurseForge, and Planet Minecraft from one form.",
-    "tags": ["Node.js", "HTML", "CLI"],
-    "stats": { "downloads": "3.9k", "likes": "97" },
-    "featured": false,
-    "link": "project.html?id=pack-uploader",
-    "banner": "assets/projects/pack-uploader-banner.jpg",
-    "logo": "assets/projects/pack-uploader-logo.png",
-    "show": true
-  },
-  {
-    "id": "grindset",
-    "title": "GrindSet",
-    "category": "tools",
-    "categoryLabel": "Tool",
-    "year": "2025",
-    "index": "05",
-    "description": "A Python-built workout generator shipped as an installable PWA, favouring short deterministic routines over endless configuration.",
-    "tags": ["Python", "PWA", "Netlify"],
-    "stats": { "downloads": "1.4k", "likes": "62" },
-    "featured": false,
-    "link": "project.html?id=grindset",
-    "banner": "assets/projects/grindset-banner.jpg",
-    "logo": "assets/projects/grindset-logo.png",
-    "show": true
-  },
-  {
-    "id": "codeforces-picker",
-    "title": "Codeforces Picker",
-    "category": "tools",
-    "categoryLabel": "Tool",
-    "year": "2026",
-    "index": "06",
-    "description": "An embedded widget that pulls a rating-matched problem from the Codeforces API on every page load, for a steady stream of deliberate practice.",
-    "tags": ["VitePress", "API", "JavaScript"],
-    "stats": { "downloads": "620", "likes": "41" },
-    "featured": false,
-    "link": "project.html?id=codeforces-picker",
-    "banner": "assets/projects/codeforces-picker-banner.jpg",
-    "logo": "assets/projects/codeforces-picker-logo.png",
-    "show": true
-  }
+      "id": "flaming-swords",
+      "title": "Flaming Swords",
+      "category": "packs",
+      "categoryLabel": "Resource Pack",
+      "year": "2025",
+      "index": "01",
+      "description": "Makes the Fire Aspect Enchantment show flames",
+      "details": "",
+      "tags": ["Minecraft", "Resource Pack", "Vanilla"],
+      "hiddenTags": ["Enchantments", "Animation", "Swords", "Fire", "Weapons", "Spears", "Maces", "Flames"],
+      "stats": { "downloads": "120k", "likes": "48" },
+      "featured": true,
+      "link": "/projects/flaming-swords",
+      "github": "https://github.com/Mr-Expence/Flaming-Swords",
+      "download": "https://modrinth.com/resourcepack/flaming-swords",
+      "logo": "/assets/flaming-swords/pack.png",
+      "banner": "/assets/flaming-swords/Flaming_Swords_Banner_Blended.png",
+      "show": true
+    },
+    {
+      "id": "shulker-ui",
+      "title": "Shulker UI",
+      "category": "packs",
+      "categoryLabel": "Resource Pack",
+      "year": "2025",
+      "index": "02",
+      "description": "Makes the Shulker Box UI look nicer",
+      "details": "",
+      "tags": ["Minecraft", "Resource Pack", "Modded"],
+      "hiddenTags": ["UI", "Shulker", "Shulker Boxes", "Inventory", "Colourful", "Colorful"],
+      "stats": { "downloads": "19", "likes": "21" },
+      "featured": true,
+      "link": "/projects/shulker-ui",
+      "github": "https://github.com/Mr-Expence/Shulker-UI",
+      "download": "https://modrinth.com/resourcepack/shulker-ui",
+      "logo": "/assets/shulker-ui/pack.png",
+      "banner": "/assets/shulker-ui/Shulker_Ui_Banner.png",
+      "show": true
+    },
+    {
+      "id": "mr_expences-vanilla-pvp-overlay",
+      "title": "Mr_Expence's PvP Overlay",
+      "category": "packs",
+      "categoryLabel": "Resource Pack",
+      "year": "2025",
+      "index": "03",
+      "description": "My custom vanilla Pvp Overlay for Minecraft with blue cobwebs and other features",
+      "details": "",
+      "tags": ["Minecraft", "Resource Pack", "Vanilla"],
+      "hiddenTags": ["PvP", "Weapons", "Simple", "Enchantments"],
+      "stats": { "downloads": "4.5k", "likes": "3" },
+      "featured": true,
+      "link": "/projects/mr_expences-vanilla-pvp-overlay",
+      "github": "https://github.com/Mr-Expence/Mr_Expence-s-PvP-Overlay",
+      "download": "https://modrinth.com/resourcepack/mr_expences-pvp-overlay",
+      "logo": "/assets/mr_expences-vanilla-pvp-overlay/pack.png",
+      "banner": "/assets/mr_expences-vanilla-pvp-overlay/Pvp_Overlay_Banner.png",
+      "show": true
+    },
+    {
+      "id": "bare-bones-buttons",
+      "title": "Bare Bones Buttons",
+      "category": "packs",
+      "categoryLabel": "Resource Pack",
+      "year": "2025",
+      "index": "04",
+      "description": "Add the Bare Bone Buttons to the game and nothing else",
+      "details": "",
+      "tags": ["Minecraft", "Resource Pack", "Vanilla"],
+      "hiddenTags": ["GUI", "Simplistic"],
+      "stats": { "downloads": "1.2k", "likes": "3" },
+      "featured": true,
+      "link": "/projects/bare-bones-buttons",
+      "github": "https://github.com/Mr-Expence/Bare-Bones-Buttons",
+      "download": "https://modrinth.com/resourcepack/bare-bones-buttons",
+      "logo": "/assets/bare-bones-buttons/pack.png",
+      "banner": "/assets/bare-bones-buttons/Bare_Bone_Buttons_Banner.png",
+      "show": false
+    },
+    {
+      "id": "cosmetics",
+      "title": "Cosmetics+",
+      "category": "packs",
+      "categoryLabel": "Resource Pack",
+      "year": "2026",
+      "index": "05",
+      "description": "Adds custom cosmetic models to the game",
+      "details": "",
+      "tags": ["Minecraft", "Resource Pack", "Vanilla"],
+      "hiddenTags": ["Cosmetics", "Simplistic", "Alpha", "Datapack"],
+      "stats": { "downloads": "403", "likes": "3" },
+      "featured": false,
+      "link": "/projects/cosmetics",
+      "github": "https://modrinth.com/resourcepack/cosmetics+",
+      "download": "https://modrinth.com/resourcepack/cosmetics+",
+      "logo": "/assets/cosmetics/pack.png",
+      "banner": "/assets/cosmetics/Cosmetics_Banner.png",
+      "show": true
+    }
 ];
 
 function initMobileNav() {
@@ -181,7 +185,8 @@ function getSearchInput() {
 
 function matchesSearch(project, query) {
   if (!query) return true;
-  const haystack = `${project.title} ${project.description} ${project.tags.join(' ')}`.toLowerCase();
+  const tags = [...(project.tags || []), ...(project.hiddenTags || [])];
+  const haystack = `${project.title} ${project.description} ${tags.join(' ')}`.toLowerCase();
   return haystack.includes(query.toLowerCase());
 }
 
@@ -250,52 +255,19 @@ async function initProjectsGrid() {
   applyProjectFilters();
 }
 
-function createSearchResultsList(query) {
-  const trimmed = query.trim();
-  if (!trimmed) return '';
-
-  const matches = allProjects.filter((project) => matchesSearch(project, trimmed)).slice(0, 5);
-  if (matches.length === 0) {
-    return '<li class="nav__search-empty">No matching projects</li>';
-  }
-
-  return matches.map((project) => `
-    <li class="nav__search-result">
-      <a href="${project.link}">
-        <span>${project.title}</span>
-        <small>${project.categoryLabel}</small>
-      </a>
-    </li>
-  `).join('');
-}
-
-function renderSearchResults(query) {
-  const wrapper = document.querySelector('.nav__search-results');
-  if (!wrapper) return;
-  const trimmed = query.trim();
-  wrapper.innerHTML = trimmed ? `<ul>${createSearchResultsList(trimmed)}</ul>` : '';
-  wrapper.classList.toggle('is-visible', Boolean(trimmed));
-}
-
 function initNavSearch() {
   const input = getSearchInput();
   if (!input) return;
 
   const onProjectsGrid = document.querySelector('[data-projects-grid]');
-  const resultsWrapper = document.createElement('div');
-  resultsWrapper.className = 'nav__search-results';
-  input.parentElement.appendChild(resultsWrapper);
 
   const updateSearch = () => {
-    const query = input.value.trim();
     if (onProjectsGrid) {
       applyProjectFilters();
     }
-    renderSearchResults(query);
   };
 
   input.addEventListener('input', updateSearch);
-  input.addEventListener('focus', updateSearch);
   input.addEventListener('keydown', (event) => {
     if (event.key !== 'Enter') return;
     event.preventDefault();
@@ -307,13 +279,6 @@ function initNavSearch() {
 
     const query = input.value.trim();
     window.location.assign(getProjectsPageUrl(query));
-  });
-
-  document.addEventListener('click', (event) => {
-    if (!resultsWrapper.contains(event.target) && event.target !== input) {
-      resultsWrapper.classList.remove('is-visible');
-      resultsWrapper.innerHTML = '';
-    }
   });
 }
 
