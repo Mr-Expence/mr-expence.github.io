@@ -14,8 +14,6 @@ My custom website to show my projects including Resource Packs for Minecraft and
 ## Features
 
 - Project Page
-- Social Page
-- Codeforce Problem Picker
 
 ### Tech Stack
 
@@ -31,9 +29,7 @@ My custom website to show my projects including Resource Packs for Minecraft and
 ## Roadmap
 
 - [x] Home Page
-- [x] Social Page
-- [ ] Project Pages (upcoming)
-- [ ] Codeforce Problem Picker (planned)
+- [x] Project Pages
 
 ## License
 
