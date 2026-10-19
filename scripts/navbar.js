@@ -7,8 +7,6 @@ const html = `<header class="nav">
       <nav class="nav__links" aria-label="Primary">
         <a class="nav__link" href="/">Home</a>
         <a class="nav__link" href="/projects">Projects</a>
-        <a class="nav__link" href="/social">Social</a>
-        <a class="nav__link" href="/personal-links">Personal Links</a>
       </nav>
       <label class="nav__search">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
