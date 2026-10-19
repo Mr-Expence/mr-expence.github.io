@@ -1,7 +1,5 @@
 const footerHtml = `<footer class="footer">
-    <div class="container footer__bottom">
-      <p>© <span data-year></span> Mr_Expence. All rights reserved.</p>
-    </div>
+  <p>© <span data-year></span> Mr_Expence. All rights reserved.</p>
   </footer>`;
 
 document.body.insertAdjacentHTML("beforeend", footerHtml);
